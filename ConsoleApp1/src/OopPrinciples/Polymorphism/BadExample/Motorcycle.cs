@@ -11,12 +11,12 @@ namespace ConsoleApp1.src.OopPrinciples.Polymorphism.BadExample
         public string Model { get; set; }
         public int Year { get; set; }
 
-        public virtual void Start()
+        public void Start()
         {
             Console.WriteLine("Motorcycle is starting.");
         }
 
-        public virtual void Stop()
+        public void Stop()
         {
             Console.WriteLine("Motorcycle is stopping.");
         }

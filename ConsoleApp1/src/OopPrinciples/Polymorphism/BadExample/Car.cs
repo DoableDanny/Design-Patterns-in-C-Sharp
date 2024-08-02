@@ -13,12 +13,12 @@ namespace ConsoleApp1.src.OopPrinciples.Polymorphism.BadExample
 
         public int NumberOfDoors { get; set; }
 
-        public virtual void Start()
+        public void Start()
         {
             Console.WriteLine("Car is starting.");
         }
 
-        public virtual void Stop()
+        public void Stop()
         {
             Console.WriteLine("Car is stopping.");
         }
