@@ -14,7 +14,7 @@ namespace ConsoleApp1.src.DesignPatterns.Structural.Adapter.ThirdPartyColorLibra
 
         public void Update(Video video)
         {
-            System.Console.WriteLine("Applying rainbow filter to video");
+            System.Console.WriteLine("Updating rainbow filter to video");
         }
     }
 }

@@ -7,7 +7,7 @@ using ConsoleApp1.src.DesignPatterns.Structural.Adapter.ThirdPartyColorLibrary;
 namespace ConsoleApp1.src.DesignPatterns.Structural.Adapter
 {
     // Adapter class. Rainbow is the adaptee
-    public class RainbowColor : Color
+    public class RainbowColor : IColor
     {
         private Rainbow _rainbow; // "composition" -- RainbowColor is composed of, "has a", Rainbow. See RainbowAdapter for inheritance alternative.
 

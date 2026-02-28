@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.src.DesignPatterns.Structural.Adapter
 {
-    public interface Color
+    public interface IColor
     {
         void Apply(Video video);
     }

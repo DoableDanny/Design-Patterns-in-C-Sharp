@@ -14,7 +14,7 @@ namespace ConsoleApp1.src.DesignPatterns.Structural.Adapter
             _video = video;
         }
 
-        public void ApplyColor(Color color)
+        public void ApplyColor(IColor color)
         {
             color.Apply(_video);
         }

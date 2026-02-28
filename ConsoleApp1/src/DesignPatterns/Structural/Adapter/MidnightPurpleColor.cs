@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.src.DesignPatterns.Structural.Adapter
 {
-    public class MidnightColor : Color
+    public class MidnightColor : IColor
     {
         public void Apply(Video video)
         {
